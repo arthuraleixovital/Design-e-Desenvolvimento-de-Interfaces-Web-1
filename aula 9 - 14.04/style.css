@@ -1,0 +1,31 @@
+/* Seletor { atributo:valor; atributo2:valor2} */
+
+*{
+    color: blue;
+}
+
+h1,h2{
+    color:red;
+}
+
+h3{
+    color: green;
+}
+
+.textoAmarelo{
+    color: yellow;
+}
+
+div {
+    width: 50%;
+    height: 100px;
+    background-color: chocolate;
+    padding: 10px;
+}
+
+#filha{
+    /* margin: 10px; */
+    width: 50%;
+    height: 50px;
+    background-color: red;
+}

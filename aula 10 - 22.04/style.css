@@ -1,6 +1,6 @@
 .container{
     background-color: red;
-    width: 100%;
+    width: 500px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -10,13 +10,13 @@
 
 .filha1{
     background-color: yellow;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 
 .container2{
     background-color: gray;
-    width: 100%;
+    width: 500px;
     height: 100px;
     display: flex;
     justify-content: center;
@@ -24,14 +24,21 @@
 }
 
 .quad{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
 }
 
 .container3{
     background-color: gray;
-    width: 100%;
+    width: 500px;
     height: 100px;
     display: flex;
     justify-content: flex-end;
@@ -39,7 +46,7 @@
 
 .container4{
     background-color: gray;
-    width: 100%;
+    width: 500px;
     height: 100px;
     display: flex;
     align-items: flex-end;
@@ -48,7 +55,7 @@
 
 .container5{
     background-color: gray;
-    width: 100%;
+    width: 500px;
     height: 100px;
     display: flex;
     align-items: center;
@@ -57,24 +64,157 @@
 
 .ret{
     width: 200px;
-    height: 50px;
+    height: 60px;
     background-color: darkcyan;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
 }
 
 .container6{
     background-color: gray;
-    width: 100%;
+    width: 500px;
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .ret2{
     width: 90px;
     height: 20px;
     background-color: orange;
+}
+
+.retmenor{
+    width: 50px;
+    height: 20px;
+    background-color: orange;
+}
+
+.container8{
+    background-color: gray;
+    width: 500px;
+    height: 100px;
+    display: flex;
+}
+
+.fantasma1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.fantasma2{
+    background-color: gray;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.container9{
+    background-color: gray;
+    width: 210px;
+    height: 315px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.retlaranja{
+    background-color: orange;
+    width: 200px;
+    height: 150px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.retver{
+    background-color: red;
+    width: 200px;
+    height: 30px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.retamar{
+    background-color: yellow;
+    width: 200px;
+    height: 50px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.retlaranja2{
+    background-color: orange;
+    width: 120px;
+    height: 40px;
+}
+
+.quadlaranja{
+    background-color: orange;
+    width: 60px;
+    height: 40px;
+}
+
+.container10{
+    background-color: gray;
+    width: 370px;
+    height: 390px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+}
+
+.retamarelolargo{
+    background-color: yellow;
+    width: 250px;
+    height: 30px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.retlaranja3{
+    background-color: orange;
+    width: 350px;
+    height: 150px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quadamarelo{
+    width: 80px;
+    height: 80px;
+    background-color: yellow;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin-right: 30px;
+}
+
+.grupo-direita{
+    background-color: red;
+    align-items: flex-end;
+    gap: 80px;
 }
